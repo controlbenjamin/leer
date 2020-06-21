@@ -1,0 +1,14 @@
+Para Conectarse con una base de datos Oracle 11G 32bits (x86)
+En el proyecto de datos:
+Instalar los siguientes packetes NuGet:
+-Dapper
+-Oracle.ManagedDataAccess.Core
+
+Incorporar los siguientes espacios de nombre:
+using System.Linq;
+using Dapper;
+using Oracle.ManagedDataAccess.Client;
+
+Ejemplo de cadena de conexion oracle:
+
+Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=127.0.0.1)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=XE)));User Id=CYRE;Password=123456;
