@@ -1,3 +1,23 @@
+/*
+Para Conectarse con una base de datos Oracle 11G 32bits (x86)
+En el proyecto de datos:
+Instalar los siguientes packetes NuGet:
+-Dapper
+-Oracle.ManagedDataAccess.Core
+
+
+*/
+
+
+//Librerias necesarias:
+using System;
+using System.Collections.Generic;
+using System.Text;
+using Entidades;
+
+using System.Linq;
+using Dapper;
+using Oracle.ManagedDataAccess.Client;
 
         /*
          tabla:
